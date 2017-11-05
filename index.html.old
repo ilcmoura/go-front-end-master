@@ -1,0 +1,435 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+<title>Gabarito Oficial</title>
+
+<!-- <link rel="icon" href="favicon.png" type="image/png"> -->
+
+<link href="css/bootstrap.css" 		rel="stylesheet" type="text/css">
+<link href="css/style.css" 			rel="stylesheet" type="text/css">
+<link href="css/linecons.css" 		rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" 	rel="stylesheet" type="text/css">
+<link href="css/responsive.css" 	rel="stylesheet" type="text/css">
+<link href="css/animate.css" 		rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/wow.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+
+<!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+	$(document).ready(function(e) {
+        $('.res-nav_click').click(function(){
+		$('ul.toggle').slideToggle(600)	
+			});	
+			
+	$(document).ready(function() {
+$(window).bind('scroll', function() {
+         if ($(window).scrollTop() > 0) {
+             $('#header_outer').addClass('fixed');
+         }
+         else {
+             $('#header_outer').removeClass('fixed');
+         }
+    });
+	
+	  });
+	  
+
+		    });	
+function resizeText() {
+	var preferredWidth = 767;
+	var displayWidth = window.innerWidth;
+	var percentage = displayWidth / preferredWidth;
+	var fontsizetitle = 25;
+	var newFontSizeTitle = Math.floor(fontsizetitle * percentage);
+	$(".divclass").css("font-size", newFontSizeTitle)
+}
+</script>
+
+<style>
+	#linkSpan {
+		cursor:pointer;
+	}
+</style>
+</head>
+
+<body>
+
+<!--Header_section-->
+<header id="header_outer">
+  <div class="container">
+    <div class="header_section">
+      <div class="logo">
+      	    <div class="section-title"><h1><a href="javascript:void(0)"><b>Gabarito</b>Oficial</a></h1></div>
+      </div>
+      <nav class="nav" id="nav">
+        <ul class="toggle">
+          <li><a href="#Portfolio">Disciplinas</a></li>
+          <li><a href="#service">Downloads</a></li>
+          <li><a href="#team">Redes Sociais</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <ul class="">
+          <li><a href="#Portfolio">Disciplinas</a></li>
+		  <li><a href="#service">Downloads</a></li>
+          <li><a href="#team">Redes Sociais</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+      <a class="res-nav_click animated wobble"  href="javascript:void(0)"><i class="fa-bars"></i></a> </div>
+  </div>
+</header>
+<!--Header_section--> 
+
+<!-- Portfolio -->
+<section id="Portfolio" class="content"> 
+  
+  <!-- Container -->
+  <div class="container portfolio-title"> 
+    
+    <!-- Section Title -->
+    <div class="section-title">
+      <h2>Disciplinas</h2>
+    </div>
+    <!--/Section Title --> 
+    
+  </div>
+  <!-- Container -->
+  
+  <div class="portfolio-top"></div>
+  
+  <!-- Portfolio Plus Filters -->
+  <div class="portfolio"> 
+    
+    <!-- Portfolio Filters -->
+    <div id="filters" class="sixteen columns">
+      <ul class="clearfix">
+        <li><a id="all" href="#" data-filter="*" class="active">
+          <h5>Todos</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".science">
+          <h5>Ciências</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".math">
+          <h5>Matemática</h5>
+          </a></li>
+      </ul>
+    </div>
+    <!--/Portfolio Filters --> 
+    
+    <!-- Portfolio Wrap -->
+    <div class="isotope" style="position: relative; overflow: hidden; height: 480px;" id="portfolio-wrap"> 
+      
+      <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(320px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  science isotope-item" onclick="window.location='http://www.gabaritooficial.com.br/go/exercise_list_file/?disc=0';">
+        <div class="portfolio-image"> <img src="img/p01-large.jpg" alt="Portfolio 1"> </div>
+        <div class="project-overlay">
+          <div class="open-project-link"> <a class="open-project" href="http://www.gabaritooficial.com.br/go/exercise_list_file/?disc=0" title="Open Project"></a> </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Biologia</h4>
+            <p class="project-categories">Listas de exercícios</p>
+          </div>
+        </div>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+      
+      <!-- Portfolio Item Normal Expander -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  science  isotope-item" onclick="window.location='http://www.gabaritooficial.com.br/go/exercise_list_file/?disc=1';">
+        <div class="portfolio-image"> <img src="img/p02-large.jpg" alt="Portfolio 1"> </div>
+        <div class="project-overlay">
+          <div class="open-project-link"> <a class="open-project" href="http://www.gabaritooficial.com.br/go/exercise_list_file/?disc=1" title="Open Project"></a> </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Física</h4>
+            <p class="project-categories">Listas de exercícios</p>
+          </div>
+        </div>
+      </div>
+      <!--/Portfolio Item Normal Expander --> 
+      
+      <!-- Portfolio Item FullScreen Expander -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  science isotope-item" onclick="window.location='http://www.gabaritooficial.com.br/go/exercise_list_file/?disc=2';">
+        <div class="portfolio-image"> <img src="img/p03-large.jpg" alt="Portfolio 1"> </div>
+        <div class="project-overlay">
+          <div class="open-project-link"> <a class="open-project" href="http://www.gabaritooficial.com.br/go/exercise_list_file/?disc=2" title="Open Project"></a> </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Química</h4>
+            <p class="project-categories">Listas de exercícios</p>
+          </div>
+        </div>
+      </div>
+      <!--/Portfolio Item FullScreen Expander --> 
+      
+      <!-- Portfolio Item External Project  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four math isotope-item" onclick="window.location='http://www.gabaritooficial.com.br/go/exercise_list_file/?disc=3';">
+        <div class="portfolio-image"> <img src="img/p04-large.jpg" alt="Portfolio 1"> </div>
+        <a href="#" >
+        <div class="project-overlay">
+          <div class="open-project-link"> <a class="open-project" href="http://www.gabaritooficial.com.br/go/exercise_list_file/?disc=3" title="Open Project"></a> </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Matemática</h4>
+            <p class="project-categories">Listas de exercícios</p>
+          </div>
+        </div>
+        </a> </div>
+      <!--/Portfolio Item External Project  --> 
+      
+    </div>
+    <!--/Portfolio Wrap --> 
+    
+  </div>
+  <!--/Portfolio Plus Filters -->
+  
+  <div class="portfolio-bottom"></div>
+  
+  <!-- Project Page Holder-->
+  <div id="project-page-holder">
+    <div class="clear"></div>
+    <div id="project-page-data"></div>
+  </div>
+  <!--/Project Page Holder--> 
+  
+</section>
+<!--/Portfolio --> 
+
+<!--Service-->
+<section  id="service">		
+  <div class="container">
+    <h2>Downloads</h2>
+    <div class="service_area">
+      <div class="row">
+        <div class="col-lg-4">
+          <div id="linkSpan" class="service_block" onclick="window.location='http://www.gabaritooficial.com.br/go/college_test_dir/';">
+            <div class="service_icon delay-03s animated zoomIn"> <span><i class="fa-download"></i></span> </div>
+            <h3 class="animated fadeInUp">Provas de Vestibular</h3>
+            <p class="animated fadeInDown">Provas de Vestibular de todo Brasil resolvidas e comentadas.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div id="linkSpan" class="service_block" onclick="window.location='http://www.youtube.com/channel/UCvyJaXCXPEBpQ9A9arCnapw/videos';">
+            <div class="service_icon icon2  delay-03s animated zoomIn"> <span><i class="fa-video-camera"></i></span> </div>
+            <h3 class="animated fadeInUp">Vídeo Aulas</h3>
+            <p class="animated fadeInDown">Vídeo-aulas com conteúdo e resolução de exercícios.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div id="linkSpan" class="service_block" onclick="window.location='http://www.gabaritooficial.com.br/go/discipline/';">
+            <div class="service_icon icon3  delay-03s animated zoomIn"> <span><i class="fa-list"></i></span> </div>
+            <h3 class="animated fadeInUp">Lista de Exercícios</h3>
+            <p class="animated fadeInDown">Listas de exercícios exclusivas comentados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Service-->
+
+<!--work_outer-->
+<section  id="Portfolio2">		
+  <div class="container">
+    <h2>Redes Sociais</h2>
+    <div class="service_area">
+      <div class="row">
+        <div class="col-lg-4">
+          <div id="linkSpan" class="service_block" onclick="window.location='http://instagram.com/gabaritooficial/';">
+            <div class="service_icon icon4 delay-03s animated wow  zoomIn"> <span><i class="fa-instagram"></i></span> </div>
+            <h3 class="animated fadeInUp wow">Instagram</h3>
+            <p class="animated fadeInDown wow">Informações e dicas com muito humor e descontração.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div id="linkSpan" class="service_block" onclick="window.location='http://facebook.com/gabaritooficial/';">
+            <div class="service_icon icon5  delay-03s animated wow zoomIn"> <span><i class="fa-facebook"></i></span> </div>
+            <h3 class="animated fadeInUp wow">Facebook</h3>
+            <p class="animated fadeInDown wow">Acesse o Facebook e curta a nossa Fanpage.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div id="linkSpan" class="service_block" onclick="window.location='http://www.youtube.com/channel/UCvyJaXCXPEBpQ9A9arCnapw/videos';">
+            <div class="service_icon icon6  delay-03s animated wow zoomIn"> <span><i class="fa-youtube-play"></i></span> </div>
+            <h3 class="animated fadeInUp wow">YouTube</h3>
+            <p class="animated fadeInDown wow">Vídeos com conteúdo e resoluções de questões.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Service-->
+
+<!--work_outer-->
+<section  id="contact">
+  <div class="container">
+    <h2>Contato</h2>
+    <div class="row" >
+        <div class="col-lg-2" ></div>
+    	<div class="col-lg-8 wow fadeInUp delay-02s" >
+          <div class="form" style="text-align: center;">
+          	<form action="http://www.gabaritooficial.com.br/go/site/message" method="POST" >
+	            <input class="input-text animated wow flipInY delay-01s" type="text" name="name" value="Nome *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+    	        <input class="input-text animated wow flipInY delay-02s" type="text" name="email" value="E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+        	    <textarea class="input-text text-area animated wow flipInY delay-03s" name=message cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Mensagem *</textarea>
+            	<input class="input-btn animated wow flipInY delay-04s" type="submit" value="enviar mensagem">
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-2" ></div>
+    </div>
+  </div>
+</section>
+<!--Service-->
+<br/>
+<footer class="footer_section" id="contact">
+  <div class="container">
+
+    <div class="footer_bottom"> <span>Copyright © 2016 | <a href="http://www.gabaritooficial.com.br">Gabarito Oficial</a></span> </div>
+    <!-- 
+        All links in the footer should remain intact. 
+        Licenseing information is available at: http://bootstraptaste.com/license/
+        You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Butterfly
+    -->
+  </div>
+</footer>
+<script type="text/javascript">
+    $(document).ready(function(e) {
+        $('#header_outer').scrollToFixed();
+        $('.res-nav_click').click(function(){
+            $('.main-nav').slideToggle();
+            return false    
+            
+        });
+        
+    });
+</script> 
+<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100
+      }
+    );
+    wow.init();
+    document.getElementById('').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'wow fadeInDown';
+	  section.className = 'wow shake';
+	  section.className = 'wow zoomIn';
+	  section.className = 'wow lightSpeedIn';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script> 
+<script type="text/javascript">
+	$(window).load(function(){
+		
+		$('a').bind('click',function(event){
+			var $anchor = $(this);
+			
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top - 91
+			}, 1500,'easeInOutExpo');
+			/*
+			if you don't want to use the easing effects:
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1000);
+			*/
+			event.preventDefault();
+		});
+	})
+</script> 
+
+<script type="text/javascript">
+
+   
+  jQuery(document).ready(function($){     
+// Portfolio Isotope
+	var container = $('#portfolio-wrap');	
+	
+
+	container.isotope({
+		animationEngine : 'best-available',
+	  	animationOptions: {
+	     	duration: 200,
+	     	queue: false
+	   	},
+		layoutMode: 'fitRows'
+	});	
+
+	$('#filters a').click(function(){
+		$('#filters a').removeClass('active');
+		$(this).addClass('active');
+		var selector = $(this).attr('data-filter');
+	  	container.isotope({ filter: selector });
+        setProjects();		
+	  	return false;
+	});
+		
+		
+		function splitColumns() { 
+			var winWidth = $(window).width(), 
+				columnNumb = 1;
+			
+			
+			if (winWidth > 1024) {
+				columnNumb = 4;
+			} else if (winWidth > 900) {
+				columnNumb = 2;
+			} else if (winWidth > 479) {
+				columnNumb = 2;
+			} else if (winWidth < 479) {
+				columnNumb = 1;
+			}
+			
+			return columnNumb;
+		}		
+		
+		function setColumns() { 
+			var winWidth = $(window).width(), 
+				columnNumb = splitColumns(), 
+				postWidth = Math.floor(winWidth / columnNumb);
+			
+			container.find('.portfolio-item').each(function () { 
+				$(this).css( { 
+					width : postWidth + 'px' 
+				});
+			});
+		}		
+		
+		function setProjects() { 
+			setColumns();
+			container.isotope('reLayout');
+		}		
+		
+		container.imagesLoaded(function () { 
+			setColumns();
+		});
+		
+	
+		$(window).bind('resize', function () { 
+			setProjects();			
+		});
+
+});
+$( window ).load(function() {
+	jQuery('#all').click();
+	return false;
+});
+</script>
+</body>
+</html>
